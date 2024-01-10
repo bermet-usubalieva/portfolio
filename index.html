@@ -35,43 +35,46 @@
                 <nav class="header_nav">
                     <ul class="header_ul">
                         <li>
-                            <a class="header_link" href="#skills">Skills</a>
+                            <a class="header_link" href="#skills" data-lang="skillsHed">Skills</a>
                         </li>
                         <li>
-                            <a class="header_link" href="#portfolio">Portfolio</a>
+                            <a class="header_link" href="#portfolio" data-lang="portfolioHed">Portfolio</a>
                         </li>
                         <li>
-                            <a class="header_link" href="#video">Video</a>
+                            <a class="header_link" href="#video" data-lang="videoHed">Video</a>
                         </li>
                         <li>
-                            <a class="header_link" href="#price">Price</a>
+                            <a class="header_link" href="#price" data-lang="priceHed">Price</a>
                         </li>
                         <li>
-                            <a class="header_link" href="#contacts">Contacts</a>
+                            <a class="header_link" href="#contacts" data-lang="contactsHed"="">Contacts</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="language">
-                    <p class="en">en</p>
+                    <p class="en header_btn_active" data-btn="en">en</p>
                     <p class="slash">/</p>
-                    <p class="ru">ru</p>
+                    <p class="ru" data-btn="ru">ru</p>
                 </div>
                 <nav class="header_nav_burger">
                     <ul class="header_ul_burger">
                         <li>
-                            <a class="header_link_burger" href="#skills" id="skillsLink">Skills</a>
+                            <a class="header_link_burger" href="#skills" id="skillsLink"
+                                data-lang="skillLang">Skills</a>
                         </li>
                         <li>
-                            <a class="header_link_burger" href="#portfolio" id="portfolioLink">Portfolio</a>
+                            <a class="header_link_burger" href="#portfolio" id="portfolioLink"
+                                data-lang="portfolioLang">Portfolio</a>
                         </li>
                         <li>
-                            <a class="header_link_burger" href="#video" id="videoLink">Video</a>
+                            <a class="header_link_burger" href="#video" id="videoLink" data-lang="videoLang">Video</a>
                         </li>
                         <li>
-                            <a class="header_link_burger" href="#price" id="priceLink">Price</a>
+                            <a class="header_link_burger" href="#price" id="priceLink" data-lang="priceLang">Price</a>
                         </li>
                         <li>
-                            <a class="header_link_burger" href="#contacts" id="contactsLink">Contacts</a>
+                            <a class="header_link_burger" href="#contacts" id="contactsLink"
+                                data-lang="contactsLang">Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -85,16 +88,17 @@
         <main>
             <section class="hero">
                 <div class="hero_title">
-                    <h1 class="hero_name">Alexa Rise</h1>
-                    <p class="hero_text">Save sincere emotions, romantic feelings and happy moments of life together
+                    <h1 class="hero_name" data-lang="hero_name_lang">Alexa Rise</h1>
+                    <p class="hero_text" data-lang="hero_text_lang">Save sincere emotions, romantic feelings and happy
+                        moments of life together
                         with professional photographer Alexa Rise</p>
-                    <button class="hero_button">Hire me</button>
+                    <button class="hero_button" data-lang="hero_button_lang">Hire me</button>
                 </div>
             </section>
             <section class="skills" id="skills">
                 <div class="skills_title">
                     <div class="left_line"></div>
-                    <h2 class="skills_h2">Skills</h2>
+                    <h2 class="skills_h2" data-lang="skills">Skills</h2>
                     <div class="right_line"></div>
                 </div>
                 <div class="skills_content">
@@ -124,8 +128,9 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="digital_photo_title">Digital photography</p>
-                        <p class="digital_photo_text">High-quality photos in the studio and on the nature</p>
+                        <p class="digital_photo_title" data-lang="digital_photo_title_lang">Digital photography</p>
+                        <p class="digital_photo_text" data-lang="digital_photo_text_lang">High-quality photos in the
+                            studio and on the nature</p>
                     </div>
                     <div class="video_shooting">
                         <svg class="video_svg" xmlns="http://www.w3.org/2000/svg" width="60" height="50"
@@ -141,8 +146,9 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="video_shooting_title">Video shooting</p>
-                        <p class="video_shooting_text">Capture your moments so that they always stay with you</p>
+                        <p class="video_shooting_title" data-lang="video_shooting_title_lang">Video shooting</p>
+                        <p class="video_shooting_text" data-lang="video_shooting_text_lang">Capture your moments so that
+                            they always stay with you</p>
                     </div>
                     <div class="retouch">
                         <svg class="retouch_svg" xmlns="http://www.w3.org/2000/svg" width="66" height="50"
@@ -161,8 +167,9 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="retouch_title">Retouch</p>
-                        <p class="retouch_text">I strive to make photography surpass reality</p>
+                        <p class="retouch_title" data-lang="retouch_title_lang">Retouch</p>
+                        <p class="retouch_text" data-lang="retouch_text_lang">I strive to make photography surpass
+                            reality</p>
                     </div>
                     <div class="audio">
                         <svg class="audio_svg" xmlns="http://www.w3.org/2000/svg" width="32" height="50"
@@ -181,22 +188,23 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="audio_title">Audio</p>
-                        <p class="audio_text">Professional sounds recording for video, advertising, portfolio</p>
+                        <p class="audio_title" data-lang="audio_title_lang">Audio</p>
+                        <p class="audio_text" data-lang="audio_text_lang">Professional sounds recording for video,
+                            advertising, portfolio</p>
                     </div>
                 </div>
             </section>
             <section class="portfolio" id="portfolio">
                 <div class="skills_title">
                     <div class="left_line"></div>
-                    <h2 class="skills_h2">Portfolio</h2>
+                    <h2 class="skills_h2" data-lang="portfolio">Portfolio</h2>
                     <div class="right_line"></div>
                 </div>
                 <div class="portfolio_button">
-                    <div class="winter">Winter</div>
-                    <div class="spring">Spring</div>
-                    <div class="summer">Summer</div>
-                    <div class="autumn">Autumn</div>
+                    <div class="winter" data-lang="winter">Winter</div>
+                    <div class="spring" data-lang="spring">Spring</div>
+                    <div class="summer" data-lang="summer">Summer</div>
+                    <div class="autumn" data-lang="autumn">Autumn</div>
                 </div>
                 <div class="portfolio_photo winter_img">
                     <img class="portfolio-img" src="assets/img/portfolio-img (3).jpg" alt="landscape">
@@ -234,7 +242,7 @@
             <section class="video" id="video">
                 <div class="skills_title">
                     <div class="left_line"></div>
-                    <h2 class="skills_h2">Video</h2>
+                    <h2 class="skills_h2" data-lang="video">Video</h2>
                     <div class="right_line"></div>
                 </div>
                 <img class="wedding_img" src="assets/img/video-player.jpg" alt="wedding">
@@ -242,49 +250,56 @@
             <section class="price" id="price">
                 <div class="skills_title">
                     <div class="left_line"></div>
-                    <h2 class="skills_h2">Price</h2>
+                    <h2 class="skills_h2" data-lang="price">Price</h2>
                     <div class="right_line"></div>
                 </div>
                 <div class="price_content">
                     <div class="standart">
-                        <p class="standart_title">Standard</p>
+                        <p class="standart_title" data-lang="standart_title_lang">Standard</p>
                         <p class="standart_price">500 $</p>
-                        <p class="standart_text">One location <br>
-                            120 photos in color <br>
-                            12 photos in retouch <br>
-                            Readiness 2-3 weeks <br>
-                            Make up, visage</p>
-                        <button class="price_button">Order shooting</button>
+                        <div class="standart_text">
+                            <p class="standart_text" data-lang="standart_text_lang1">One location</p>
+                            <p class="standart_text" data-lang="standart_text_lang2"">120 photos in color</p> 
+                        <p class=" standart_text" data-lang="standart_text_lang3">12 photos in retouch</p>
+                            <p class="standart_text" data-lang="standart_text_lang4">Readiness 2-3 weeks</p>
+                            <p class="standart_text" data-lang="standart_text_lang5">Make up, visage</p>
+                        </div>
+                        <button class="price_button" data-lang="price_button_lang">Order shooting</button>
                     </div>
                     <div class="premium">
-                        <p class="premium_title">Premium</p>
+                        <p class="premium_title" data-lang="premium_price_lang">Premium</p>
                         <p class="premium_price">700 $</p>
-                        <p class="premium_text">One or two locations<br>
-                            200 photos in color<br>
-                            20 photos in retouch<br>
-                            Readiness 1-2 weeks<br>
-                            Make up, visage</p>
-                        <button class="price_button">Order shooting</button>
+                        <div class="premium_text">
+                            <p class="premium_text" data-lang="premium_text_lang1">One or two locations</p>
+                            <p class="premium_text" data-lang="premium_text_lang2"">200 photos in color</p> 
+                        <p class=" premium_text" data-lang="premium_text_lang3">20 photos in retouch</p>
+                            <p class="premium_text" data-lang="premium_text_lang4">Readiness 1-2 weeks</p>
+                            <p class="premium_text" data-lang="premium_text_lang5">Make up, visage</p>
+                        </div>
+                        <button class="price_button" data-lang="price_button_lang2">Order shooting</button>
                     </div>
                     <div class="gold">
-                        <p class="gold_title">Gold</p>
+                        <p class="gold_title" data-lang="gold_title_lang">gold_title_lang</p>
                         <p class="gold_price">1000 $</p>
-                        <p class="gold_text">Three locations or more<br>
-                            300 photos in color<br>
-                            50 photos in retouch<br>
-                            Readiness 1 week<br>
-                            Make up, visage, hairstyle</p>
-                        <button class="price_button">Order shooting</button>
+                        <div class="gold_text">
+                            <p class="gold_text" data-lang="gold_text_lang1">Three locations or more</p>
+                            <p class="gold_text" data-lang="gold_text_lang2"">300 photos in color</p> 
+                        <p class=" gold_text" data-lang="gold_text_lang3">50 photos in retouch</p>
+                            <p class="gold_text" data-lang="gold_text_lang4">Readiness 1 weeks</p>
+                            <p class="gold_text" data-lang="gold_text_lang5">Make up, visage</p>
+                        </div>
+                        <button class="price_button" data-lang="price_button_lang3">Order shooting</button>
                     </div>
                 </div>
             </section>
             <section class="contacts" id="contacts">
                 <form class="form" action="#">
-                    <legend>Contact me</legend>
-                    <input class="email" type="email" placeholder="E-mail">
-                    <input class="tel" type="tel" placeholder="Phone">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button class="form_button">Send message</button>
+                    <legend data-lang="legend_lang">Contact me</legend>
+                    <input class="email" type="email" placeholder="E-mail" data-lang="email_lang">
+                    <input class="tel" type="tel" placeholder="Phone" data-lang="tel_lang">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"
+                        data-lang="textarea_lang"></textarea>
+                    <button class="form_button" data-lang="form_button_lang">Send message</button>
                 </form>
             </section>
         </main>
@@ -295,7 +310,7 @@
                 <a class="footer_link" href="https://github.com/bermet-usubalieva/portfolio">github</a>
             </div>
             <div class="footer_center">
-                <p class="footer_name">Bermet Usubalieva</p>
+                <p class="footer_name" data-lang="footer_name_lang">Bermet Usubalieva</p>
             </div>
             <div class="footer_right">
                 <svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"

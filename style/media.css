@@ -1,7 +1,18 @@
+@media all and (max-width: 1224px) {
+
+    .wedding_video {
+        height: 550px;
+    }
+}
+
 @media all and (max-width: 950px) {
     .portfolio_button {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wedding_video {
+        height: 450px;
     }
 }
 
@@ -113,9 +124,6 @@
         margin-top: 70px;
     }
 
-    .video {
-        padding: 0;
-    }
 
     .wedding_img {
         height: 418px;
@@ -187,7 +195,6 @@
         margin-top: 30px;
         cursor: pointer;
         height: 30px;
-        /* position: absolute; */
         left: 653px;
         top: 0px;
         z-index: 2;
@@ -204,4 +211,92 @@
     .ru {
         margin-right: -11px;
     }
+}
+
+@media all and (max-width: 620px) {
+    .header_nav_burger {
+        width: 470px;
+        right: -470px;
+    }
+
+    .wedding_img {
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .header_nav_burger {
+        width: 320px;
+        right: -320px;
+    }
+
+    .header_ul_burger {
+        margin-left: 35px;
+    }
+
+    .hero_text {
+        width: 260px;
+    }
+
+    .portfolio_button {
+        display: flex;
+    }
+
+    .email,
+    .tel,
+    textarea {
+        width: 316px;
+    }
+
+    .portfolio-img {
+        width: 350px;
+        height: 460px;
+    }
+
+    .wedding_img {
+        height: 280px;
+    }
+}
+
+
+@media all and (max-width: 440px) {
+
+    .standart,
+    .premium,
+    .gold {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .header {
+        padding: 0 25px 0 25px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .skills_title {
+        width: 300px;
+    }
+
+    .portfolio-img {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .hero_title {
+        padding-left: 40px;
+    }
+
+    .email,
+    .tel,
+    textarea {
+        width: 300px;
+    }
+
+    .wedding_img {
+        height: 220px;
+    }
+
 }
